@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/courseView"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/pinck"
+        android:text="Explore some course and improve your skills"
+        android:textColor="@color/purple"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/AndroidApp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Roadmaps Of Andriod App Development" />
+
+    <Button
+        android:id="@+id/MERN"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Roadmaps Of MERN Stack Web Development" />
+    <Button
+        android:id="@+id/BlockChain"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Roadmaps Of BlockChain Projects" />
+
+    <Button
+        android:id="@+id/IOS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-530dp"
+        android:text="Roadmaps Of IOS App Development" />
+
+    <Button
+        android:id="@+id/MachineLearning"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="230dp"
+        android:text="Roadmaps Of Machine Learning" />
+    <Button
+        android:id="@+id/EthicalHacking"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="230dp"
+        android:text="Roadmaps Of Ethical Hacking " />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_gravity="center"
+        android:background="@color/lightred"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Contact us" />
+
+
+</LinearLayout>

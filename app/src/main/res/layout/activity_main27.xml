@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2_7">
+
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/purple"
+        android:background="@color/lightred"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:text="Contact Details"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/contactNoText"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:textColor="@color/purple"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:text="Contact No :- 9627316601 " />
+    <TextView
+        android:id="@+id/EmailText"
+        android:textSize="30dp"
+        android:textColor="@color/purple"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:text="Email :-ankit7078849348@gmail.com " />
+
+    <TextView
+        android:id="@+id/InstagramText"
+        android:textSize="30dp"
+        android:textColor="@color/purple"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:text="Instagram :-o_ankttt06" />
+    <TextView
+        android:id="@+id/LinkedInText"
+        android:textSize="30dp"
+        android:textColor="@color/purple"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:text="Linked In:-ankit-kumar-2a9936336
+
+" />
+
+
+</LinearLayout>
